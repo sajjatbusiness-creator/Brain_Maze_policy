@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Brain Maze</title>
+  <style>
+    :root {
+      --bg-page: #f4f7fc;
+      --bg-card: #ffffff;
+      --blue-deep: #0b234a;
+      --blue-primary: #1565d8;
+      --blue-bright: #0091ff;
+      --blue-soft: #eef4ff;
+      --border-soft: #d7e3f7;
+      --text-main: #1b2a44;
+      --text-muted: #52637e;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg-page);
+      color: var(--text-main);
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    header.hero {
+      background: linear-gradient(135deg, var(--blue-deep) 0%, var(--blue-primary) 65%, var(--blue-bright) 100%);
+      color: #ffffff;
+      padding: 48px 20px 56px;
+      text-align: center;
+    }
+
+    header.hero .badge {
+      display: inline-block;
+      background: rgba(255, 255, 255, 0.16);
+      border: 1px solid rgba(255, 255, 255, 0.35);
+      border-radius: 999px;
+      padding: 5px 14px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+
+    header.hero h1 {
+      margin: 0 0 8px;
+      font-size: clamp(1.75rem, 4vw, 2.4rem);
+      font-weight: 800;
+      letter-spacing: 0.02em;
+    }
+
+    header.hero p {
+      margin: 0 auto;
+      max-width: 660px;
+      color: rgba(255, 255, 255, 0.92);
+      font-size: 1rem;
+    }
+
+    main.container {
+      max-width: 860px;
+      margin: -28px auto 48px;
+      padding: 0 16px;
+    }
+
+    .summary-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-soft);
+      border-left: 5px solid var(--blue-primary);
+      border-radius: 14px;
+      padding: 20px 22px;
+      margin-bottom: 20px;
+      box-shadow: 0 8px 24px rgba(11, 35, 74, 0.07);
+    }
+
+    .summary-card strong {
+      color: var(--blue-deep);
+    }
+
+    .policy-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-soft);
+      border-radius: 16px;
+      padding: 28px 26px;
+      box-shadow: 0 10px 28px rgba(11, 35, 74, 0.06);
+    }
+
+    section {
+      padding: 18px 0;
+      border-bottom: 1px solid #edf2fa;
+    }
+
+    section:first-child {
+      padding-top: 0;
+    }
+
+    section:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+
+    h2 {
+      margin: 0 0 10px;
+      font-size: 1.2rem;
+      color: var(--blue-deep);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    h2 .num {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 28px;
+      height: 28px;
+      border-radius: 8px;
+      background: var(--blue-soft);
+      color: var(--blue-primary);
+      font-size: 0.9rem;
+      font-weight: 800;
+      flex-shrink: 0;
+    }
+
+    p {
+      margin: 0 0 10px;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    ul {
+      margin: 8px 0 10px;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    a {
+      color: var(--blue-primary);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    code {
+      background: var(--blue-soft);
+      color: var(--blue-deep);
+      padding: 2px 6px;
+      border-radius: 5px;
+      font-size: 0.9em;
+    }
+
+    footer {
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.88rem;
+      margin-top: 24px;
+      padding-bottom: 16px;
+    }
+
+    @media (max-width: 600px) {
+      .policy-card {
+        padding: 20px 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="badge">Brain Maze &bull; Android Application</div>
+    <h1>PRIVACY POLICY</h1>
+    <p>Effective Date: November 23, 2026 &nbsp;|&nbsp; Package ID: com.aistudio.brainmaze.k7m2px</p>
+  </header>
+
+  <main class="container">
+    <div class="summary-card">
+      <strong>Privacy at a Glance:</strong> Brain Maze is a single-player puzzle game that does not require account registration or login. Your puzzle progress, virtual coins, stars, unlocked themes, and settings are stored locally on your device. Optional rewarded video ads are served through Google AdMob.
+    </div>
+
+    <article class="policy-card">
+      <section>
+        <h2><span class="num">1</span> Overview &amp; Scope</h2>
+        <p>
+          This Privacy Policy describes how <strong>Brain Maze</strong> ("we", "our", or "the App") handles information when you install and play the Brain Maze mobile game on Android. By using Brain Maze, you agree to the practices described in this policy.
+        </p>
+      </section>
+
+      <section>
+        <h2><span class="num">2</span> Information You Do Not Provide</h2>
+        <p>
+          Brain Maze does <strong>not</strong> require user accounts, sign-in, passwords, names, phone numbers, or personal profiles. We do not ask for or directly collect personally identifiable contact information inside the game.
+        </p>
+      </section>
+
+      <section>
+        <h2><span class="num">3</span> Locally Stored Game Data</h2>
+        <p>
+          To preserve your puzzle progression and preferences across sessions, Brain Maze saves gameplay data locally on your Android device using on-device storage (Room Database and Jetpack DataStore):
+        </p>
+        <ul>
+          <li><strong>Level Progress &amp; Performance:</strong> Unlocked and completed levels across game modes (<em>Tap Away Arrows</em>, <em>Find the Free Path</em>, and <em>Clear the Board</em>), star ratings, and move counts.</li>
+          <li><strong>Virtual Currencies &amp; Inventory:</strong> Virtual Coins, Stars, Hints, Path Scanners, Hearts and heart regeneration timestamps, unlocked cosmetic board themes, and 7-day Daily Reward streaks.</li>
+          <li><strong>Achievements &amp; Preferences:</strong> Achievement milestones, music/sound-effect toggles and volumes, haptic vibration preference, and selected display language.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2><span class="num">4</span> Advertising &amp; Third-Party Services (Google AdMob)</h2>
+        <p>
+          Brain Maze integrates the <strong>Google Mobile Ads SDK (AdMob)</strong> strictly to support optional <strong>Rewarded Video Ads</strong> requested by the player (such as watching a video ad in the Shop to earn <code>+100 Coins</code> or on the Game Over screen to restore <code>+1 Heart</code>). Watching ads is completely optional.
+        </p>
+        <p>
+          When ads are requested or displayed, Google AdMob may automatically collect and process limited technical data in accordance with Google's policies, including:
+        </p>
+        <ul>
+          <li><strong>Device &amp; Advertising Identifiers:</strong> Android Advertising ID (<code>AD_ID</code>) and app-set identifiers used for ad delivery, frequency capping, and fraud prevention.</li>
+          <li><strong>Network &amp; Coarse Location Information:</strong> IP address and approximate general location derived from network connection for regional ad delivery and compliance.</li>
+          <li><strong>Diagnostics &amp; Ad Interaction Data:</strong> Ad load performance, crash/error diagnostics, and ad view or reward-completion signals.</li>
+        </ul>
+        <p>
+          You can review how Google uses data from apps that use its services at
+          <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">Google Partner Sites Privacy Policy</a>
+          and
+          <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a>.
+        </p>
+      </section>
+
+      <section>
+        <h2><span class="num">5</span> App Permissions &amp; On-Device Audio</h2>
+        <p>Brain Maze requests only the minimal permissions required to operate the game and rewarded ads:</p>
+        <ul>
+          <li><code>INTERNET</code> &amp; <code>ACCESS_NETWORK_STATE</code>: Required to check connectivity and load optional rewarded video ads via Google AdMob.</li>
+          <li><code>VIBRATE</code>: Used solely for optional tactile haptic feedback during gameplay when enabled in Settings.</li>
+          <li><code>com.google.android.gms.permission.AD_ID</code>: Used by Google Mobile Ads SDK for standard Android advertising delivery and fraud prevention. (Privacy Sandbox measurement attribution permission <code>ACCESS_ADSERVICES_ATTRIBUTION</code> is explicitly removed.)</li>
+        </ul>
+        <p>
+          Background music and sound effects are synthesized locally on your device and cached privately inside the app sandbox. Brain Maze <strong>never</strong> accesses your camera, microphone, contacts, precise GPS location, or photo library.
+        </p>
+      </section>
+
+      <section>
+        <h2><span class="num">6</span> Your Choices &amp; Data Deletion</h2>
+        <p>You have full control over your local game data and ad preferences:</p>
+        <ul>
+          <li><strong>Reset In-App Progress:</strong> Open <strong>Settings &rarr; Reset Progress</strong> inside Brain Maze at any time to permanently erase local level records, coins, stars, themes, and achievements back to starter defaults.</li>
+          <li><strong>Uninstall the App:</strong> Uninstalling Brain Maze removes all local Room databases, DataStore preferences, and cached audio files from your device.</li>
+          <li><strong>Manage Ad Personalization &amp; Advertising ID:</strong> On your Android device, open <strong>Settings &rarr; Google &rarr; Ads</strong> (or Privacy &rarr; Ads) to reset or delete your Android Advertising ID or opt out of personalized advertising.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2><span class="num">7</span> Children's Privacy</h2>
+        <p>
+          Brain Maze is a general-audience cognitive puzzle game. We do not knowingly collect personal identity information from children under the age of 13 (or the applicable age of digital consent in your region). If you believe personal data has been inadvertently collected or have any privacy concerns regarding a child's use of the app, please contact us immediately so we can address it promptly.
+        </p>
+      </section>
+
+      <section>
+        <h2><span class="num">8</span> Changes to This Privacy Policy</h2>
+        <p>
+          We may update this Privacy Policy from time to time if app features, advertising configurations, or legal requirements change. Any updates will be reflected on this page with an updated effective date.
+        </p>
+      </section>
+
+      <section>
+        <h2><span class="num">9</span> Contact Us</h2>
+        <p>
+          If you have any questions, requests, or concerns about this Privacy Policy or Brain Maze, please contact the developer at:
+          <a href="mailto:sajjatofficialteam@gmail.com">sajjatofficialteam@gmail.com</a>.
+        </p>
+      </section>
+    </article>
+
+    <footer>
+      &copy; 2026 Brain Maze. All rights reserved.
+    </footer>
+  </main>
+</body>
+</html>
